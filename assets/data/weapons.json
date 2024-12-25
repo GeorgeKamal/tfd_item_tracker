@@ -1,0 +1,194 @@
+{
+  "Afterglow Sword": [
+    "./images/weapons/Afterglow Sword.png",
+    "weapon",
+    "Afterglow Sword Polymer Syncytium Blueprint",
+    "Afterglow Sword Synthetic Fiber Blueprint",
+    "Afterglow Sword Nano Tube Blueprint",
+    "Afterglow Sword Blueprint"
+  ],
+  "Albion Cavalry Gun": [
+    "./images/weapons/Albion Cavalry Gun.png",
+    "weapon",
+    "Albion Cavalry Gun Polymer Syncytium Blueprint",
+    "Albion Cavalry Gun Synthetic Fiber Blueprint",
+    "Albion Cavalry Gun Nano Tube Blueprint",
+    "Albion Cavalry Gun Blueprint"
+  ],
+  "Blue Beetle": [
+    "./images/weapons/Blue Beetle.png",
+    "weapon",
+    "Blue Beetle Polymer Syncytium Blueprint",
+    "Blue Beetle Synthetic Fiber Blueprint",
+    "Blue Beetle Nano Tube Blueprint",
+    "Blue Beetle Blueprint"
+  ],
+  "Clairvoyance": [
+    "./images/weapons/Clairvoyance.png",
+    "weapon",
+    "Clairvoyance Polymer Syncytium Blueprint",
+    "Clairvoyance Synthetic Fiber Blueprint",
+    "Clairvoyance Nano Tube Blueprint",
+    "Clairvoyance Blueprint"
+  ],
+  "Divine Punishment": [
+    "./images/weapons/Divine Punishment.png",
+    "weapon",
+    "Divine Punishment Polymer Syncytium Blueprint",
+    "Divine Punishment Synthetic Fiber Blueprint",
+    "Divine Punishment Nano Tube Blueprint",
+    "Divine Punishment Blueprint"
+  ],
+  "Enduring Legacy": [
+    "./images/weapons/Enduring Legacy.png",
+    "weapon",
+    "Enduring Legacy Polymer Syncytium Blueprint",
+    "Enduring Legacy Synthetic Fiber Blueprint",
+    "Enduring Legacy Nano Tube Blueprint",
+    "Enduring Legacy Blueprint"
+  ],
+  "Executor": [
+    "./images/weapons/Executor.png",
+    "weapon",
+    "Executor Polymer Syncytium Blueprint",
+    "Executor Synthetic Fiber Blueprint",
+    "Executor Nano Tube Blueprint",
+    "Executor Blueprint"
+  ],
+  "Fallen Hope": [
+    "./images/weapons/Fallen Hope.png",
+    "weapon",
+    "Fallen Hope Polymer Syncytium",
+    "Fallen Hope Synthetic Fiber",
+    "Fallen Hope Nano Tube",
+    "Fallen Hope Blueprint"
+  ],
+  "Frost Watcher": [
+    "./images/weapons/Frost Watcher.png",
+    "weapon",
+    "Frost Watcher Polymer Syncytium Blueprint",
+    "Frost Watcher Synthetic Fiber Blueprint",
+    "Frost Watcher Nano Tube Blueprint",
+    "Frost Watcher Blueprint"
+  ],
+  "Greg's Reversed Fate": [
+    "./images/weapons/Greg's Reversed Fate.png",
+    "weapon",
+    "Greg's Reversed Fate Polymer Syncytium Blueprint",
+    "Greg's Reversed Fate Synthetic Fiber Blueprint",
+    "Greg's Reversed Fate Nano Tube Blueprint",
+    "Greg's Reversed Fate Blueprint"
+  ],
+  "Hammer and Anvil": [
+    "./images/weapons/Hammer and Anvil.png",
+    "weapon",
+    "Hammer and Anvil Polymer Syncytium Blueprint",
+    "Hammer and Anvil Synthetic Fiber Blueprint",
+    "Hammer and Anvil Nano Tube Blueprint",
+    "Hammer and Anvil Blueprint"
+  ],
+  "King's Guard Lance": [
+    "./images/weapons/King's Guard Lance.png",
+    "weapon",
+    "King's Guard Lance Polymer Syncytium Blueprint",
+    "King's Guard Lance Synthetic Fiber Blueprint",
+    "King's Guard Lance Nano Tube Blueprint",
+    "King's Guard Lance Blueprint"
+  ],
+  "Nazeistra's Devotion": [
+    "./images/weapons/Nazeistra's Devotion.png",
+    "weapon",
+    "Nazeistra's Devotion Polymer Syncytium Blueprint",
+    "Nazeistra's Devotion Synthetic Fiber Blueprint",
+    "Nazeistra's Devotion Nano Tube Blueprint",
+    "Nazeistra's Devotion Blueprint"
+  ],
+  "Peace Maker": [
+    "./images/weapons/Peace Maker.png",
+    "weapon",
+    "Peace Maker Polymer Syncytium Blueprint",
+    "Peace Maker Synthetic Fiber Blueprint",
+    "Peace Maker Nano Tube Blueprint",
+    "Peace Maker Blueprint"
+  ],
+  "Perforator": [
+    "./images/weapons/Perforator.png",
+    "weapon",
+    "Perforator Polymer Syncytium Blueprint",
+    "Perforator Synthetic Fiber Blueprint",
+    "Perforator Nano Tube Blueprint",
+    "Perforator Blueprint"
+  ],
+  "Piercing Light": [
+    "./images/weapons/Piercing Light.png",
+    "weapon",
+    "Piercing Light Polymer Syncytium Blueprint",
+    "Piercing Light Synthetic Fiber Blueprint",
+    "Piercing Light Nano Tube Blueprint",
+    "Piercing Light Blueprint"
+  ],
+  "Python": [
+    "./images/weapons/Python.png",
+    "weapon",
+    "Python Polymer Syncytium Blueprint",
+    "Python Synthetic Fiber Blueprint",
+    "Python Nano Tube Blueprint",
+    "Python Blueprint"
+  ],
+  "Restored Relic": [
+    "./images/weapons/Restored Relic.png",
+    "weapon",
+    "Restored Relic Polymer Syncytium Blueprint",
+    "Restored Relic Synthetic Fiber Blueprint",
+    "Restored Relic Nano Tube Blueprint",
+    "Restored Relic Blueprint"
+  ],
+  "Secret Garden": [
+    "./images/weapons/Secret Garden.png",
+    "weapon",
+    "Secret Garden Polymer Syncytium Blueprint",
+    "Secret Garden Synthetic Fiber Blueprint",
+    "Secret Garden Nano Tube Blueprint",
+    "Secret Garden Blueprint"
+  ],
+  "Smithereens": [
+    "./images/weapons/Smithereens.png",
+    "weapon",
+    "Smithereens Polymer Syncytium Blueprint",
+    "Smithereens Synthetic Fiber Blueprint",
+    "Smithereens Nano Tube Blueprint",
+    "Smithereens Blueprint"
+  ],
+  "The Final Masterpiece": [
+    "./images/weapons/The Final Masterpiece.png",
+    "weapon",
+    "The Final Masterpiece Polymer Syncytium Blueprint",
+    "The Final Masterpiece Synthetic Fiber Blueprint",
+    "The Final Masterpiece Nano Tube Blueprint",
+    "The Final Masterpiece Blueprint"
+  ],
+  "The Last Dagger": [
+    "./images/weapons/The Last Dagger.png",
+    "weapon",
+    "The Last Dagger Polymer Syncytium",
+    "The Last Dagger Synthetic Fiber",
+    "The Last Dagger Nano Tube",
+    "The Last Dagger Blueprint"
+  ],
+  "Thunder Cage": [
+    "./images/weapons/Thunder Cage.png",
+    "weapon",
+    "Thunder Cage Polymer Syncytium",
+    "Thunder Cage Synthetic Fiber",
+    "Thunder Cage Nano Tube",
+    "Thunder Cage Blueprint"
+  ],
+  "Wave of Light": [
+    "./images/weapons/Wave of Light.png",
+    "weapon",
+    "Wave of Light Polymer Syncytium Blueprint",
+    "Wave of Light Synthetic Fiber Blueprint",
+    "Wave of Light Nano Tube Blueprint",
+    "Wave of Light Blueprint"
+  ]
+}

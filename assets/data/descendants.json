@@ -1,0 +1,202 @@
+{
+  "Ajax": [
+    "./images/descendants/Ajax.png",
+    "descendant",
+    "Ajax Enhanced Cells Blueprint",
+    "Ajax Stabilizer Blueprint",
+    "Ajax Spiral Catalyst Blueprint",
+    "Ajax Code"
+  ],
+  "Blair": [
+    "./images/descendants/Blair.png",
+    "descendant",
+    "Blair Enhanced Cells",
+    "Blair Stabilizer",
+    "Blair Spiral Catalyst",
+    "Blair Code"
+  ],
+  "Bunny": [
+    "./images/descendants/Bunny.png",
+    "descendant",
+    "Bunny Enhanced Cells",
+    "Bunny Stabilizer",
+    "Bunny Spiral Catalyst",
+    "Bunny Code"
+  ],
+  "Enzo": [
+    "./images/descendants/Enzo.png",
+    "descendant",
+    "Enzo Enhanced Cells Blueprint",
+    "Enzo Stabilizer Blueprint",
+    "Enzo Spiral Catalyst Blueprint",
+    "Enzo Code"
+  ],
+  "Esiemo": [
+    "./images/descendants/Esiemo.png",
+    "descendant",
+    "Esiemo Enhanced Cells Blueprint",
+    "Esiemo Stabilizer Blueprint",
+    "Esiemo Spiral Catalyst Blueprint",
+    "Esiemo Code"
+  ],
+  "Freyna": [
+    "./images/descendants/Freyna.png",
+    "descendant",
+    "Freyna Enhanced Cells",
+    "Freyna Stabilizer",
+    "Freyna Spiral Catalyst",
+    "Freyna Code"
+  ],
+  "Gley": [
+    "./images/descendants/Gley.png",
+    "descendant",
+    "Gley Enhanced Cells Blueprint",
+    "Gley Stabilizer Blueprint",
+    "Gley Spiral Catalyst Blueprint",
+    "Gley Code"
+  ],
+  "Hailey": [
+    "./images/descendants/Hailey.png",
+    "descendant",
+    "Hailey Enhanced Cells Blueprint",
+    "Hailey Stabilizer Blueprint",
+    "Hailey Spiral Catalyst Blueprint",
+    "Hailey Code"
+  ],
+  "Jayber": [
+    "./images/descendants/Jayber.png",
+    "descendant",
+    "Jayber Enhanced Cells Blueprint",
+    "Jayber Stabilizer Blueprint",
+    "Jayber Spiral Catalyst Blueprint",
+    "Jayber Code"
+  ],
+  "Keelan": [
+    "./images/descendants/Keelan.png",
+    "descendant",
+    "Keelan Enhanced Cells Blueprint",
+    "Keelan Stabilizer Blueprint",
+    "Keelan Spiral Catalyst Blueprint",
+    "Keelan Code"
+  ],
+  "Kyle": [
+    "./images/descendants/Kyle.png",
+    "descendant",
+    "Kyle Enhanced Cells Blueprint",
+    "Kyle Stabilizer Blueprint",
+    "Kyle Spiral Catalyst Blueprint",
+    "Kyle Code"
+  ],
+  "Lepic": [
+    "./images/descendants/Lepic.png",
+    "descendant",
+    "Lepic Enhanced Cells Blueprint",
+    "Lepic Stabilizer Blueprint",
+    "Lepic Spiral Catalyst Blueprint",
+    "Lepic Code"
+  ],
+  "Luna": [
+    "./images/descendants/Luna.png",
+    "descendant",
+    "Luna Enhanced Cells Blueprint",
+    "Luna Stabilizer Blueprint",
+    "Luna Spiral Catalyst Blueprint",
+    "Luna Code"
+  ],
+  "Sharen": [
+    "./images/descendants/Sharen.png",
+    "descendant",
+    "Sharen Enhanced Cells",
+    "Sharen Stabilizer",
+    "Sharen Spiral Catalyst",
+    "Sharen Code"
+  ],
+  "Ultimate Ajax": [
+    "./images/descendants/Ultimate Ajax.png",
+    "descendant",
+    "Ultimate Ajax Enhanced Cells Blueprint",
+    "Ultimate Ajax Stabilizer Blueprint",
+    "Ultimate Ajax Spiral Catalyst Blueprint",
+    "Ultimate Ajax Code"
+  ],
+  "Ultimate Bunny": [
+    "./images/descendants/Ultimate Bunny.png",
+    "descendant",
+    "Ultimate Bunny Enhanced Cells Blueprint",
+    "Ultimate Bunny Stabilizer Blueprint",
+    "Ultimate Bunny Spiral Catalyst Blueprint",
+    "Ultimate Bunny Code"
+  ],
+  "Ultimate Freyna": [
+    "./images/descendants/Ultimate Freyna.png",
+    "descendant",
+    "Ultimate Freyna Enhanced Cells Blueprint",
+    "Ultimate Freyna Stabilizer Blueprint",
+    "Ultimate Freyna Spiral Catalyst Blueprint",
+    "Ultimate Freyna Code"
+  ],
+  "Ultimate Gley": [
+    "./images/descendants/Ultimate Gley.png",
+    "descendant",
+    "Ultimate Gley Enhanced Cells Blueprint",
+    "Ultimate Gley Stabilizer Blueprint",
+    "Ultimate Gley Spiral Catalyst Blueprint",
+    "Ultimate Gley Code"
+  ],
+  "Ultimate Lepic": [
+    "./images/descendants/Ultimate Lepic.png",
+    "descendant",
+    "Ultimate Lepic Enhanced Cells Blueprint",
+    "Ultimate Lepic Stabilizer Blueprint",
+    "Ultimate Lepic Spiral Catalyst Blueprint",
+    "Ultimate Lepic Code"
+  ],
+  "Ultimate Sharen": [
+    "./images/descendants/Ultimate Sharen.png",
+    "descendant",
+    "Ultimate Sharen Enhanced Cells Blueprint",
+    "Ultimate Sharen Stabilizer Blueprint",
+    "Ultimate Sharen Spiral Catalyst Blueprint",
+    "Ultimate Sharen Code"
+  ],
+  "Ultimate Valby": [
+    "./images/descendants/Ultimate Valby.png",
+    "descendant",
+    "Ultimate Valby Enhanced Cells Blueprint",
+    "Ultimate Valby Stabilizer Blueprint",
+    "Ultimate Valby Spiral Catalyst Blueprint",
+    "Ultimate Valby Code"
+  ],
+  "Ultimate Viessa": [
+    "./images/descendants/Ultimate Viessa.png",
+    "descendant",
+    "Ultimate Viessa Enhanced Cells Blueprint",
+    "Ultimate Viessa Stabilizer Blueprint",
+    "Ultimate Viessa Spiral Catalyst Blueprint",
+    "Ultimate Viessa Code"
+  ],
+  "Valby": [
+    "./images/descendants/Valby.png",
+    "descendant",
+    "Valby Enhanced Cells Blueprint",
+    "Valby Stabilizer Blueprint",
+    "Valby Spiral Catalyst Blueprint",
+    "Valby Code"
+  ],
+  "Viessa": [
+    "./images/descendants/Viessa.png",
+    "descendant",
+    "Viessa Enhanced Cells Blueprint",
+    "Viessa Stabilizer Blueprint",
+    "Viessa Spiral Catalyst Blueprint",
+    "Viessa Code"
+  ],
+  "Yujin": [
+    "./images/descendants/Yujin.png",
+    "descendant",
+    "Yujin Enhanced Cells Blueprint",
+    "Yujin Stabilizer Blueprint",
+    "Yujin Spiral Catalyst Blueprint",
+    "Yujin Code"
+  ]
+}
