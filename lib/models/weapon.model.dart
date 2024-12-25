@@ -1,21 +1,13 @@
-import 'package:tfd_item_tracker/constants.dart';
+import 'package:tfd_item_tracker/models/asset.interface.dart';
+import 'package:tfd_item_tracker/utils/constants.dart';
 
-class Weapon {
-  final String name;
-  final String imagePath;
-  final List<String> parts;
+class Weapon extends Asset {
+  const Weapon({required super.name, required super.imagePath, required super.parts});
 
-  const Weapon({
-    required this.name,
-    required this.imagePath,
-    required this.parts,
-  });
-
-  String get getType => Constants.typeWeapon;
-  
-  String get getName => name;
-
-  String get getImagePath => imagePath;
-
-  List<String> get getParts => parts;
+  @override
+  String toString() {
+    String type = Constants.typeWeapon;
+    String superString = super.toString();
+    return "$type - $superString";
+  }
 }
