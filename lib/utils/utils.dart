@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Utils {
@@ -29,5 +30,14 @@ class Utils {
   static Future<bool> loadBool(String key) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
     return prefs.getBool(key) ?? false;
+  }
+
+  static void alert(BuildContext context, String message) {
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      content: Center(child: Text(message),),
+      duration: Duration(milliseconds: 1000),
+      behavior: SnackBarBehavior.floating,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0),),
+    ));
   }
 }
