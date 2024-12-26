@@ -60,40 +60,31 @@ class AssetDetailsState extends State<AssetDetails> {
     double screenWidth = MediaQuery.of(context).size.width;
 
     List<Widget> rows = List.generate(widget.asset.getParts.length, (int index) =>
-      // Expanded(
-      //   child: 
-        Column(
+      Container(
+        padding: EdgeInsets.symmetric(horizontal: 20), 
+        child: Column(
           children: [
-            Container(
-              padding: EdgeInsets.symmetric(horizontal: 20), 
-              child: Column(
-                children: [
-                  if(index == 0)
-                    Center(child: Text(""),),
-                  InkWell(
-                    onTap: () {print("help");},
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Row(
-                          children: [
-                            SizedBox(width: 16),
-                            SizedBox(width: screenWidth * (isPortrait? 0.6: 0.45), child: Text(widget.asset.getParts[index])),
-                          ],
-                        ),
-                        generateStateHolderWidget(index)
-                      ],
-                    ),
-                  ),
-                  if(index < widget.asset.getParts.length - 1)
-                    Divider(height: 20,)
-                ],
-              )
+            if(index == 0)
+              Center(child: Text(""),),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                InkWell(
+                  onTap: () {String part=widget.asset.getParts[index];print("Move to Patterns page with $part");},
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                  child: Container(
+                    padding: EdgeInsets.all(10),
+                    child: SizedBox(width: screenWidth * (isPortrait? 0.6: 0.45), child: Text(widget.asset.getParts[index]))
+                    )
+                ),
+                generateStateHolderWidget(index)
+              ],
             ),
+            if(index < widget.asset.getParts.length - 1)
+              Divider(height: 20,)
           ],
-        // )
-      )
+        )
+      ),
     );
 
     return rows;
