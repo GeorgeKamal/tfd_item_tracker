@@ -22,6 +22,16 @@ class Utils {
     return prefs.getInt(key) ?? 0;
   }
 
+  static Future<void> saveString(String key, String value) async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setString(key, value);
+  }
+
+  static Future<String> loadString(String key) async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    return prefs.getString(key) ?? "";
+  }
+
   static Future<void> saveBool(String key, bool value) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.setBool(key, value);

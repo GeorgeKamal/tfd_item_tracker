@@ -1,8 +1,7 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:tfd_item_tracker/models/asset.interface.dart';
 import 'package:tfd_item_tracker/models/descendant.model.dart';
+import 'package:tfd_item_tracker/models/weapon.model.dart';
 import 'package:tfd_item_tracker/utils/utils.dart';
 
 class AssetDetails extends StatefulWidget {
@@ -18,14 +17,43 @@ class AssetDetails extends StatefulWidget {
 class AssetDetailsState extends State<AssetDetails> {
   //TODO - handle patterns data
 
-  late List<int> count;
-  late List<bool> owned;
+  List<bool>? owned;
+  List<int>? count;
 
   @override
   void initState() {
     super.initState();
-    count = List.filled(widget.asset.getParts.length, 0);
-    owned = List.filled(widget.asset.getParts.length, false);
+    load();
+  }
+
+  Future<void> save() async {
+    if(widget.asset is Descendant) {
+      Utils.saveString(widget.asset.getName, owned!.join("#").toString());
+    }
+    if(widget.asset is Weapon) {
+      Utils.saveString(widget.asset.getName, count!.join("#").toString());
+    }
+  }
+
+  Future<void> load() async {
+    String loaded = await Utils.loadString(widget.asset.getName);
+    
+    if(loaded.isNotEmpty) {
+      if(widget.asset is Descendant) {
+        owned = loaded.split("#").map(bool.parse).toList();
+        count = List.filled(widget.asset.getParts.length, 0);
+      }
+      if(widget.asset is Weapon) {
+        owned = List.filled(widget.asset.getParts.length, false);
+        count = loaded.split("#").map(int.parse).toList();
+      }
+    }
+    else {
+      owned = List.filled(widget.asset.getParts.length, false);
+      count = List.filled(widget.asset.getParts.length, 0);
+    }
+
+    setState(() {});
   }
 
   List<Widget> generateRows(BuildContext context, bool isPortrait) {
@@ -82,21 +110,21 @@ class AssetDetailsState extends State<AssetDetails> {
     Widget stateHolder = Row(
       children: [
         IconButton(onPressed: () {
-          if(count[index] > 0) {
+          if(count![index] > 0) {
             setState(() {
-              count[index]--;
-              // count[index] = max(count[index] - 1, 0);
+              count![index]--;
             });
+            save();
             Utils.alert(context, "Saved!");
           }
         }, icon: Icon(Icons.remove)),
-        Text(count[index].toString()), 
+        Text(count![index].toString()), 
         IconButton(onPressed: () {
-          if(count[index] < 5) {
+          if(count![index] < 5) {
             setState(() {
-              count[index]++;
-              // count[index] = min(count[index] + 1, 5);
+              count![index]++;
             });
+            save();
             Utils.alert(context, "Saved!");
           }
         }, icon: Icon(Icons.add)), 
@@ -107,12 +135,13 @@ class AssetDetailsState extends State<AssetDetails> {
       stateHolder = Row(
         children: [
           Switch(
-            value: owned[index],
+            value: owned![index],
             thumbIcon: thumbIconProperty,
             onChanged: (value) {
               setState(() {
-                owned[index] = value;
+                owned![index] = value;
               });
+              save();
               Utils.alert(context, "Saved!");
             }
           ),
@@ -128,7 +157,7 @@ class AssetDetailsState extends State<AssetDetails> {
   Widget build(BuildContext context) {
     bool isPortrait = MediaQuery.of(context).orientation.index == 0;
 
-    Widget bodyWidget = isPortrait?
+    Widget bodyWidget = (owned == null || count == null)? LinearProgressIndicator() : isPortrait?
       Column(
         children: [
           Expanded(
