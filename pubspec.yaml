@@ -19,6 +19,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/images/descendants/
+    - assets/images/weapons/
+
 
 flutter_native_splash:
   # This package generates native code to customize Flutter's default white native splash screen
