@@ -4,23 +4,59 @@ import 'package:tfd_item_tracker/models/asset.interface.dart';
 import 'package:tfd_item_tracker/models/descendant.model.dart';
 import 'package:tfd_item_tracker/utils/utils.dart';
 
-class AssetListItem extends StatelessWidget {
-  //TODO - handle patterns data
+class AssetListItem extends StatefulWidget {
   final Asset asset;
 
   const AssetListItem({required this.asset, super.key});
 
-  void viewDetails(BuildContext context) {
-    Navigator.push(context, MaterialPageRoute(builder: (context) => AssetDetails(asset: asset)));
+  @override
+  State<StatefulWidget> createState() => AssetListItemState();
+  
+}
+
+class AssetListItemState extends State<AssetListItem> {
+  //TODO - handle patterns data
+
+  double? progress;
+
+  void viewDetails(BuildContext context) async {
+    await Navigator.push(context, MaterialPageRoute(builder: (context) => AssetDetails(asset: widget.asset)));
+    getProgress();
+  }
+
+  void getProgress() {
+    AssetDetails.loadProgress(widget.asset).then((value) {
+      if(progress != value) {
+        setState(() {
+          progress = value;
+        });
+      }
+    });
+    
   }
 
   @override
   Widget build(BuildContext context) {
-    ClipOval imageWidget = asset is Descendant? 
-      ClipOval(child: Image.asset(asset.getImagePath, width: 70, height: 70, fit: BoxFit.cover, alignment: Alignment(0, -0.7),),)
-      :
-      ClipOval(child: Image.asset(asset.getImagePath, width: 70, height: 70,),);
+    getProgress();
+
+    LayoutBuilder imageLayout = LayoutBuilder(
+      builder: (BuildContext context, BoxConstraints constraints) {
+        double size = constraints.maxHeight * 0.75;
+        ClipOval imageWidget = widget.asset is Descendant? 
+          ClipOval(child: Image.asset(widget.asset.getImagePath, width: size, height: size, fit: BoxFit.cover, alignment: Alignment(0, -0.7),),)
+          :
+          ClipOval(child: Image.asset(widget.asset.getImagePath,width: size, height: size,),);
+
+        return imageWidget;
+      },
+    );
+
     
+    if(progress == null) {
+      //TODO - placeholder?
+      return Center(child: CircularProgressIndicator());
+    }
+
     return Card(
       elevation: 2,
       child: InkWell(
@@ -31,11 +67,25 @@ class AssetListItem extends StatelessWidget {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Hero(
-                tag: asset.getName,
-                child: imageWidget
+                tag: widget.asset.getName,
+                child: imageLayout
               ),
             ),
-            Expanded(child: Text(asset.getName)),
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(widget.asset.getName),
+                  Row(
+                    children: [
+                      Expanded(flex: 3, child: LinearProgressIndicator(value: progress, borderRadius: BorderRadius.circular(10),)),
+                      Expanded(child: Text("${(progress!*100).round()}%", textAlign: TextAlign.center,)),
+                    ],
+                  )
+                ],
+              ),
+            ),
             IconButton(
               onPressed: () {
                 // onStar!();

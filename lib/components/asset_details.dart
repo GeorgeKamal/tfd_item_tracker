@@ -11,6 +11,22 @@ class AssetDetails extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() => AssetDetailsState();
+
+  static Future<double> loadProgress(Asset asset) async {
+    String loaded = await Utils.loadString(asset.getName);
+    
+    if(loaded.isNotEmpty) {
+      if(asset is Descendant) {
+        return loaded.split("#").map((x) => bool.parse(x)? 1:0).reduce((a, b) => a + b) / 4;
+      }
+      if(asset is Weapon) {
+        return loaded.split("#").map(int.parse).reduce((a, b) => a + b) / 20;
+      }
+    }
+    
+    return 0;
+  }
+
   
 }
 
@@ -70,7 +86,7 @@ class AssetDetailsState extends State<AssetDetails> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 InkWell(
-                  onTap: () {String part=widget.asset.getParts[index];print("Move to Patterns page with $part");},
+                  onTap: () {Utils.alert(context, "Move to Patterns page with ${widget.asset.getParts[index]}");},
                   borderRadius: BorderRadius.all(Radius.circular(10)),
                   child: Container(
                     padding: EdgeInsets.all(10),
