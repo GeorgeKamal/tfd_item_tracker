@@ -20,7 +20,7 @@ class AssetList extends StatelessWidget {
       itemBuilder: (context, index) {
         return AssetListItem(asset: list[index]);
       },
-      padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5)
+      padding: EdgeInsets.all(10)
     );
   }
   

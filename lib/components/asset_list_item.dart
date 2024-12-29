@@ -17,22 +17,24 @@ class AssetListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     ClipOval imageWidget = asset is Descendant? 
-      ClipOval(child: Image.asset(asset.getImagePath, width: 75, height: 75, fit: BoxFit.cover, alignment: Alignment(0, -0.75),),)
+      ClipOval(child: Image.asset(asset.getImagePath, width: 70, height: 70, fit: BoxFit.cover, alignment: Alignment(0, -0.7),),)
       :
-      ClipOval(child: Image.asset(asset.getImagePath, width: 75, height: 75,),);
+      ClipOval(child: Image.asset(asset.getImagePath, width: 70, height: 70,),);
     
     return Card(
+      elevation: 2,
       child: InkWell(
         onTap: () => viewDetails(context),
         borderRadius: BorderRadius.all(Radius.circular(10)),
         child: Row(
           children: [
-            SizedBox(width: 16),
-            Hero(
-              tag: asset.getName,
-              child: imageWidget
+            Container(
+              padding: EdgeInsets.symmetric(horizontal: 10),
+              child: Hero(
+                tag: asset.getName,
+                child: imageWidget
+              ),
             ),
-            SizedBox(width: 16),
             Expanded(child: Text(asset.getName)),
             IconButton(
               onPressed: () {
@@ -43,10 +45,9 @@ class AssetListItem extends StatelessWidget {
               // icon: Icon(starred.contains(title)? Icons.star_rounded: Icons.star_border_rounded)
               icon: Icon(Icons.star_rounded)
             ),
-            SizedBox(width: 16),
           ],
-        )
-      ),
+        ),
+      )
     );
   }
   
