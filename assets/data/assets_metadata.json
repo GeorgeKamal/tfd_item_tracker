@@ -1,0 +1,928 @@
+{
+  "Afterglow Sword": [
+    "Equipment",
+    "assets/images/weapons/Afterglow Sword.png",
+    [
+      "assets/images/weapons/parts/Afterglow Sword Polymer Syncytium Blueprint.png",
+      "Afterglow Sword Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Afterglow Sword Synthetic Fiber Blueprint.png",
+      "Afterglow Sword Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Afterglow Sword Nano Tube Blueprint.png",
+      "Afterglow Sword Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Afterglow Sword Blueprint.png",
+      "Afterglow Sword Blueprint"
+    ]
+  ],
+  "Ajax": [
+    "Character",
+    "assets/images/descendants/Ajax.png",
+    [
+      "assets/images/descendants/parts/Ajax Enhanced Cells Blueprint.png",
+      "Ajax Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ajax Stabilizer Blueprint.png",
+      "Ajax Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ajax Spiral Catalyst Blueprint.png",
+      "Ajax Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Ajax Code.png", "Ajax Code"]
+  ],
+  "Albion Cavalry Gun": [
+    "Equipment",
+    "assets/images/weapons/Albion Cavalry Gun.png",
+    [
+      "assets/images/weapons/parts/Albion Cavalry Gun Polymer Syncytium Blueprint.png",
+      "Albion Cavalry Gun Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Albion Cavalry Gun Synthetic Fiber Blueprint.png",
+      "Albion Cavalry Gun Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Albion Cavalry Gun Nano Tube Blueprint.png",
+      "Albion Cavalry Gun Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Albion Cavalry Gun Blueprint.png",
+      "Albion Cavalry Gun Blueprint"
+    ]
+  ],
+  "Blair": [
+    "Character",
+    "assets/images/descendants/Blair.png",
+    [
+      "assets/images/descendants/parts/Blair Enhanced Cells.png",
+      "Blair Enhanced Cells"
+    ],
+    [
+      "assets/images/descendants/parts/Blair Stabilizer.png",
+      "Blair Stabilizer"
+    ],
+    [
+      "assets/images/descendants/parts/Blair Spiral Catalyst.png",
+      "Blair Spiral Catalyst"
+    ],
+    ["assets/images/descendants/parts/Blair Code.png", "Blair Code"]
+  ],
+  "Blue Beetle": [
+    "Equipment",
+    "assets/images/weapons/Blue Beetle.png",
+    [
+      "assets/images/weapons/parts/Blue Beetle Polymer Syncytium Blueprint.png",
+      "Blue Beetle Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Blue Beetle Synthetic Fiber Blueprint.png",
+      "Blue Beetle Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Blue Beetle Nano Tube Blueprint.png",
+      "Blue Beetle Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Blue Beetle Blueprint.png",
+      "Blue Beetle Blueprint"
+    ]
+  ],
+  "Bunny": [
+    "Character",
+    "assets/images/descendants/Bunny.png",
+    [
+      "assets/images/descendants/parts/Bunny Enhanced Cells.png",
+      "Bunny Enhanced Cells"
+    ],
+    [
+      "assets/images/descendants/parts/Bunny Stabilizer.png",
+      "Bunny Stabilizer"
+    ],
+    [
+      "assets/images/descendants/parts/Bunny Spiral Catalyst.png",
+      "Bunny Spiral Catalyst"
+    ],
+    ["assets/images/descendants/parts/Bunny Code.png", "Bunny Code"]
+  ],
+  "Clairvoyance": [
+    "Equipment",
+    "assets/images/weapons/Clairvoyance.png",
+    [
+      "assets/images/weapons/parts/Clairvoyance Polymer Syncytium Blueprint.png",
+      "Clairvoyance Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Clairvoyance Synthetic Fiber Blueprint.png",
+      "Clairvoyance Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Clairvoyance Nano Tube Blueprint.png",
+      "Clairvoyance Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Clairvoyance Blueprint.png",
+      "Clairvoyance Blueprint"
+    ]
+  ],
+  "Divine Punishment": [
+    "Equipment",
+    "assets/images/weapons/Divine Punishment.png",
+    [
+      "assets/images/weapons/parts/Divine Punishment Polymer Syncytium Blueprint.png",
+      "Divine Punishment Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Divine Punishment Synthetic Fiber Blueprint.png",
+      "Divine Punishment Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Divine Punishment Nano Tube Blueprint.png",
+      "Divine Punishment Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Divine Punishment Blueprint.png",
+      "Divine Punishment Blueprint"
+    ]
+  ],
+  "Enduring Legacy": [
+    "Equipment",
+    "assets/images/weapons/Enduring Legacy.png",
+    [
+      "assets/images/weapons/parts/Enduring Legacy Polymer Syncytium Blueprint.png",
+      "Enduring Legacy Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Enduring Legacy Synthetic Fiber Blueprint.png",
+      "Enduring Legacy Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Enduring Legacy Nano Tube Blueprint.png",
+      "Enduring Legacy Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Enduring Legacy Blueprint.png",
+      "Enduring Legacy Blueprint"
+    ]
+  ],
+  "Enzo": [
+    "Character",
+    "assets/images/descendants/Enzo.png",
+    [
+      "assets/images/descendants/parts/Enzo Enhanced Cells Blueprint.png",
+      "Enzo Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Enzo Stabilizer Blueprint.png",
+      "Enzo Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Enzo Spiral Catalyst Blueprint.png",
+      "Enzo Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Enzo Code.png", "Enzo Code"]
+  ],
+  "Esiemo": [
+    "Character",
+    "assets/images/descendants/Esiemo.png",
+    [
+      "assets/images/descendants/parts/Esiemo Enhanced Cells Blueprint.png",
+      "Esiemo Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Esiemo Stabilizer Blueprint.png",
+      "Esiemo Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Esiemo Spiral Catalyst Blueprint.png",
+      "Esiemo Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Esiemo Code.png", "Esiemo Code"]
+  ],
+  "Executor": [
+    "Equipment",
+    "assets/images/weapons/Executor.png",
+    [
+      "assets/images/weapons/parts/Executor Polymer Syncytium Blueprint.png",
+      "Executor Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Executor Synthetic Fiber Blueprint.png",
+      "Executor Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Executor Nano Tube Blueprint.png",
+      "Executor Nano Tube Blueprint"
+    ],
+    ["assets/images/weapons/parts/Executor Blueprint.png", "Executor Blueprint"]
+  ],
+  "Fallen Hope": [
+    "Equipment",
+    "assets/images/weapons/Fallen Hope.png",
+    [
+      "assets/images/weapons/parts/Fallen Hope Polymer Syncytium.png",
+      "Fallen Hope Polymer Syncytium"
+    ],
+    [
+      "assets/images/weapons/parts/Fallen Hope Synthetic Fiber.png",
+      "Fallen Hope Synthetic Fiber"
+    ],
+    [
+      "assets/images/weapons/parts/Fallen Hope Nano Tube.png",
+      "Fallen Hope Nano Tube"
+    ],
+    [
+      "assets/images/weapons/parts/Fallen Hope Blueprint.png",
+      "Fallen Hope Blueprint"
+    ]
+  ],
+  "Freyna": [
+    "Character",
+    "assets/images/descendants/Freyna.png",
+    [
+      "assets/images/descendants/parts/Freyna Enhanced Cells.png",
+      "Freyna Enhanced Cells"
+    ],
+    [
+      "assets/images/descendants/parts/Freyna Stabilizer.png",
+      "Freyna Stabilizer"
+    ],
+    [
+      "assets/images/descendants/parts/Freyna Spiral Catalyst.png",
+      "Freyna Spiral Catalyst"
+    ],
+    ["assets/images/descendants/parts/Freyna Code.png", "Freyna Code"]
+  ],
+  "FrostWatcher": [
+    "Equipment",
+    "assets/images/weapons/FrostWatcher.png",
+    [
+      "assets/images/weapons/parts/Frost Watcher Polymer Syncytium Blueprint.png",
+      "Frost Watcher Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Frost Watcher Synthetic Fiber Blueprint.png",
+      "Frost Watcher Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Frost Watcher Nano Tube Blueprint.png",
+      "Frost Watcher Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Frost Watcher Blueprint.png",
+      "Frost Watcher Blueprint"
+    ]
+  ],
+  "Gley": [
+    "Character",
+    "assets/images/descendants/Gley.png",
+    [
+      "assets/images/descendants/parts/Gley Enhanced Cells Blueprint.png",
+      "Gley Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Gley Stabilizer Blueprint.png",
+      "Gley Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Gley Spiral Catalyst Blueprint.png",
+      "Gley Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Gley Code.png", "Gley Code"]
+  ],
+  "Greg's Reversed Fate": [
+    "Equipment",
+    "assets/images/weapons/Greg's Reversed Fate.png",
+    [
+      "assets/images/weapons/parts/Greg's Reversed Fate Polymer Syncytium Blueprint.png",
+      "Greg's Reversed Fate Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Greg's Reversed Fate Synthetic Fiber Blueprint.png",
+      "Greg's Reversed Fate Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Greg's Reversed Fate Nano Tube Blueprint.png",
+      "Greg's Reversed Fate Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Greg's Reversed Fate Blueprint.png",
+      "Greg's Reversed Fate Blueprint"
+    ]
+  ],
+  "Hagios Sheepdog": [
+    "Fellow",
+    "assets/images/fellows/Hagios Sheepdog.png",
+    [
+      "assets/images/fellows/parts/Hagios Sheepdog Enhanced Cells Blueprint.png",
+      "Hagios Sheepdog Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/fellows/parts/Hagios Sheepdog Stabilizer Blueprint.png",
+      "Hagios Sheepdog Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/fellows/parts/Hagios Sheepdog Spiral Catalyst Blueprint.png",
+      "Hagios Sheepdog Spiral Catalyst Blueprint"
+    ],
+    [
+      "assets/images/fellows/parts/Hagios Sheepdog Code.png",
+      "Hagios Sheepdog Code"
+    ]
+  ],
+  "Hammer and Anvil": [
+    "Equipment",
+    "assets/images/weapons/Hammer and Anvil.png",
+    [
+      "assets/images/weapons/parts/Hammer and Anvil Polymer Syncytium Blueprint.png",
+      "Hammer and Anvil Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Hammer and Anvil Synthetic Fiber Blueprint.png",
+      "Hammer and Anvil Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Hammer and Anvil Nano Tube Blueprint.png",
+      "Hammer and Anvil Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Hammer and Anvil Blueprint.png",
+      "Hammer and Anvil Blueprint"
+    ]
+  ],
+  "Jayber": [
+    "Character",
+    "assets/images/descendants/Jayber.png",
+    [
+      "assets/images/descendants/parts/Jayber Enhanced Cells Blueprint.png",
+      "Jayber Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Jayber Stabilizer Blueprint.png",
+      "Jayber Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Jayber Spiral Catalyst Blueprint.png",
+      "Jayber Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Jayber Code.png", "Jayber Code"]
+  ],
+  "Keelan": [
+    "Character",
+    "assets/images/descendants/Keelan.png",
+    [
+      "assets/images/descendants/parts/Keelan Enhanced Cells Blueprint.png",
+      "Keelan Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Keelan Stabilizer Blueprint.png",
+      "Keelan Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Keelan Spiral Catalyst Blueprint.png",
+      "Keelan Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Keelan Code.png", "Keelan Code"]
+  ],
+  "King's Guard Lance": [
+    "Equipment",
+    "assets/images/weapons/King's Guard Lance.png",
+    [
+      "assets/images/weapons/parts/King's Guard Lance Polymer Syncytium Blueprint.png",
+      "King's Guard Lance Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/King's Guard Lance Synthetic Fiber Blueprint.png",
+      "King's Guard Lance Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/King's Guard Lance Nano Tube Blueprint.png",
+      "King's Guard Lance Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/King's Guard Lance Blueprint.png",
+      "King's Guard Lance Blueprint"
+    ]
+  ],
+  "Kyle": [
+    "Character",
+    "assets/images/descendants/Kyle.png",
+    [
+      "assets/images/descendants/parts/Kyle Enhanced Cells Blueprint.png",
+      "Kyle Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Kyle Stabilizer Blueprint.png",
+      "Kyle Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Kyle Spiral Catalyst Blueprint.png",
+      "Kyle Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Kyle Code.png", "Kyle Code"]
+  ],
+  "Lepic": [
+    "Character",
+    "assets/images/descendants/Lepic.png",
+    [
+      "assets/images/descendants/parts/Lepic Enhanced Cells Blueprint.png",
+      "Lepic Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Lepic Stabilizer Blueprint.png",
+      "Lepic Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Lepic Spiral Catalyst Blueprint.png",
+      "Lepic Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Lepic Code.png", "Lepic Code"]
+  ],
+  "Luna": [
+    "Character",
+    "assets/images/descendants/Luna.png",
+    [
+      "assets/images/descendants/parts/Luna Enhanced Cells Blueprint.png",
+      "Luna Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Luna Stabilizer Blueprint.png",
+      "Luna Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Luna Spiral Catalyst Blueprint.png",
+      "Luna Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Luna Code.png", "Luna Code"]
+  ],
+  "Nazeistra's Devotion": [
+    "Equipment",
+    "assets/images/weapons/Nazeistra's Devotion.png",
+    [
+      "assets/images/weapons/parts/Nazeistra's Devotion Polymer Syncytium Blueprint.png",
+      "Nazeistra's Devotion Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Nazeistra's Devotion Synthetic Fiber Blueprint.png",
+      "Nazeistra's Devotion Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Nazeistra's Devotion Nano Tube Blueprint.png",
+      "Nazeistra's Devotion Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Nazeistra's Devotion Blueprint.png",
+      "Nazeistra's Devotion Blueprint"
+    ]
+  ],
+  "Peace Maker": [
+    "Equipment",
+    "assets/images/weapons/Peace Maker.png",
+    [
+      "assets/images/weapons/parts/Peace Maker Polymer Syncytium Blueprint.png",
+      "Peace Maker Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Peace Maker Synthetic Fiber Blueprint.png",
+      "Peace Maker Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Peace Maker Nano Tube Blueprint.png",
+      "Peace Maker Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Peace Maker Blueprint.png",
+      "Peace Maker Blueprint"
+    ]
+  ],
+  "Perforator": [
+    "Equipment",
+    "assets/images/weapons/Perforator.png",
+    [
+      "assets/images/weapons/parts/Perforator Polymer Syncytium Blueprint.png",
+      "Perforator Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Perforator Synthetic Fiber Blueprint.png",
+      "Perforator Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Perforator Nano Tube Blueprint.png",
+      "Perforator Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Perforator Blueprint.png",
+      "Perforator Blueprint"
+    ]
+  ],
+  "Piercing Light": [
+    "Equipment",
+    "assets/images/weapons/Piercing Light.png",
+    [
+      "assets/images/weapons/parts/Piercing Light Polymer Syncytium Blueprint.png",
+      "Piercing Light Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Piercing Light Synthetic Fiber Blueprint.png",
+      "Piercing Light Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Piercing Light Nano Tube Blueprint.png",
+      "Piercing Light Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Piercing Light Blueprint.png",
+      "Piercing Light Blueprint"
+    ]
+  ],
+  "Python": [
+    "Equipment",
+    "assets/images/weapons/Python.png",
+    [
+      "assets/images/weapons/parts/Python Polymer Syncytium Blueprint.png",
+      "Python Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Python Synthetic Fiber Blueprint.png",
+      "Python Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Python Nano Tube Blueprint.png",
+      "Python Nano Tube Blueprint"
+    ],
+    ["assets/images/weapons/parts/Python Blueprint.png", "Python Blueprint"]
+  ],
+  "Restored Relic": [
+    "Equipment",
+    "assets/images/weapons/Restored Relic.png",
+    [
+      "assets/images/weapons/parts/Restored Relic Polymer Syncytium Blueprint.png",
+      "Restored Relic Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Restored Relic Synthetic Fiber Blueprint.png",
+      "Restored Relic Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Restored Relic Nano Tube Blueprint.png",
+      "Restored Relic Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Restored Relic Blueprint.png",
+      "Restored Relic Blueprint"
+    ]
+  ],
+  "Secret Garden": [
+    "Equipment",
+    "assets/images/weapons/Secret Garden.png",
+    [
+      "assets/images/weapons/parts/Secret Garden Polymer Syncytium Blueprint.png",
+      "Secret Garden Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Secret Garden Synthetic Fiber Blueprint.png",
+      "Secret Garden Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Secret Garden Nano Tube Blueprint.png",
+      "Secret Garden Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Secret Garden Blueprint.png",
+      "Secret Garden Blueprint"
+    ]
+  ],
+  "Sharen": [
+    "Character",
+    "assets/images/descendants/Sharen.png",
+    [
+      "assets/images/descendants/parts/Sharen Enhanced Cells.png",
+      "Sharen Enhanced Cells"
+    ],
+    [
+      "assets/images/descendants/parts/Sharen Stabilizer.png",
+      "Sharen Stabilizer"
+    ],
+    [
+      "assets/images/descendants/parts/Sharen Spiral Catalyst.png",
+      "Sharen Spiral Catalyst"
+    ],
+    ["assets/images/descendants/parts/Sharen Code.png", "Sharen Code"]
+  ],
+  "Smithereens": [
+    "Equipment",
+    "assets/images/weapons/Smithereens.png",
+    [
+      "assets/images/weapons/parts/Smithereens Polymer Syncytium Blueprint.png",
+      "Smithereens Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Smithereens Synthetic Fiber Blueprint.png",
+      "Smithereens Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Smithereens Nano Tube Blueprint.png",
+      "Smithereens Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Smithereens Blueprint.png",
+      "Smithereens Blueprint"
+    ]
+  ],
+  "The Final Masterpiece": [
+    "Equipment",
+    "assets/images/weapons/The Final Masterpiece.png",
+    [
+      "assets/images/weapons/parts/The Final Masterpiece Polymer Syncytium Blueprint.png",
+      "The Final Masterpiece Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/The Final Masterpiece Synthetic Fiber Blueprint.png",
+      "The Final Masterpiece Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/The Final Masterpiece Nano Tube Blueprint.png",
+      "The Final Masterpiece Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/The Final Masterpiece Blueprint.png",
+      "The Final Masterpiece Blueprint"
+    ]
+  ],
+  "The Last Dagger": [
+    "Equipment",
+    "assets/images/weapons/The Last Dagger.png",
+    [
+      "assets/images/weapons/parts/Last Dagger Polymer Syncytium.png",
+      "Last Dagger Polymer Syncytium"
+    ],
+    [
+      "assets/images/weapons/parts/Last Dagger Synthetic Fiber.png",
+      "Last Dagger Synthetic Fiber"
+    ],
+    [
+      "assets/images/weapons/parts/Last Dagger Nano Tube.png",
+      "Last Dagger Nano Tube"
+    ],
+    [
+      "assets/images/weapons/parts/Last Dagger Blueprint.png",
+      "Last Dagger Blueprint"
+    ]
+  ],
+  "Thunder Cage": [
+    "Equipment",
+    "assets/images/weapons/Thunder Cage.png",
+    [
+      "assets/images/weapons/parts/Thunder Cage Polymer Syncytium.png",
+      "Thunder Cage Polymer Syncytium"
+    ],
+    [
+      "assets/images/weapons/parts/Thunder Cage Synthetic Fiber.png",
+      "Thunder Cage Synthetic Fiber"
+    ],
+    [
+      "assets/images/weapons/parts/Thunder Cage Nano Tube.png",
+      "Thunder Cage Nano Tube"
+    ],
+    [
+      "assets/images/weapons/parts/Thunder Cage Blueprint.png",
+      "Thunder Cage Blueprint"
+    ]
+  ],
+  "Ultimate Ajax": [
+    "Character",
+    "assets/images/descendants/Ultimate Ajax.png",
+    [
+      "assets/images/descendants/parts/Ultimate Ajax Enhanced Cells Blueprint.png",
+      "Ultimate Ajax Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Ajax Stabilizer Blueprint.png",
+      "Ultimate Ajax Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Ajax Spiral Catalyst Blueprint.png",
+      "Ultimate Ajax Spiral Catalyst Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Ajax Code.png",
+      "Ultimate Ajax Code"
+    ]
+  ],
+  "Ultimate Bunny": [
+    "Character",
+    "assets/images/descendants/Ultimate Bunny.png",
+    [
+      "assets/images/descendants/parts/Ultimate Bunny Enhanced Cells Blueprint.png",
+      "Ultimate Bunny Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Bunny Stabilizer Blueprint.png",
+      "Ultimate Bunny Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Bunny Spiral Catalyst Blueprint.png",
+      "Ultimate Bunny Spiral Catalyst Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Bunny Code.png",
+      "Ultimate Bunny Code"
+    ]
+  ],
+  "Ultimate Freyna": [
+    "Character",
+    "assets/images/descendants/Ultimate Freyna.png",
+    [
+      "assets/images/descendants/parts/Ultimate Freyna Enhanced Cells Blueprint.png",
+      "Ultimate Freyna Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Freyna Stabilizer Blueprint.png",
+      "Ultimate Freyna Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Freyna Spiral Catalyst Blueprint.png",
+      "Ultimate Freyna Spiral Catalyst Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Freyna Code.png",
+      "Ultimate Freyna Code"
+    ]
+  ],
+  "Ultimate Gley": [
+    "Character",
+    "assets/images/descendants/Ultimate Gley.png",
+    [
+      "assets/images/descendants/parts/Ultimate Gley Enhanced Cells Blueprint.png",
+      "Ultimate Gley Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Gley Stabilizer Blueprint.png",
+      "Ultimate Gley Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Gley Spiral Catalyst Blueprint.png",
+      "Ultimate Gley Spiral Catalyst Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Gley Code.png",
+      "Ultimate Gley Code"
+    ]
+  ],
+  "Ultimate Lepic": [
+    "Character",
+    "assets/images/descendants/Ultimate Lepic.png",
+    [
+      "assets/images/descendants/parts/Ultimate Lepic Enhanced Cells Blueprint.png",
+      "Ultimate Lepic Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Lepic Stabilizer Blueprint.png",
+      "Ultimate Lepic Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Lepic Spiral Catalyst Blueprint.png",
+      "Ultimate Lepic Spiral Catalyst Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Lepic Code.png",
+      "Ultimate Lepic Code"
+    ]
+  ],
+  "Ultimate Sharen": [
+    "Character",
+    "assets/images/descendants/Ultimate Sharen.png",
+    [
+      "assets/images/descendants/parts/Ultimate Sharen Enhanced Cells Blueprint.png",
+      "Ultimate Sharen Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Sharen Stabilizer Blueprint.png",
+      "Ultimate Sharen Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Sharen Spiral Catalyst Blueprint.png",
+      "Ultimate Sharen Spiral Catalyst Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Sharen Code.png",
+      "Ultimate Sharen Code"
+    ]
+  ],
+  "Ultimate Valby": [
+    "Character",
+    "assets/images/descendants/Ultimate Valby.png",
+    [
+      "assets/images/descendants/parts/Ultimate Valby Enhanced Cells Blueprint.png",
+      "Ultimate Valby Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Valby Stabilizer Blueprint.png",
+      "Ultimate Valby Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Valby Spiral Catalyst Blueprint.png",
+      "Ultimate Valby Spiral Catalyst Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Valby Code.png",
+      "Ultimate Valby Code"
+    ]
+  ],
+  "Ultimate Viessa": [
+    "Character",
+    "assets/images/descendants/Ultimate Viessa.png",
+    [
+      "assets/images/descendants/parts/Ultimate Viessa Enhanced Cells Blueprint.png",
+      "Ultimate Viessa Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Viessa Stabilizer Blueprint.png",
+      "Ultimate Viessa Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Viessa Spiral Catalyst Blueprint.png",
+      "Ultimate Viessa Spiral Catalyst Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Ultimate Viessa Code.png",
+      "Ultimate Viessa Code"
+    ]
+  ],
+  "Valby": [
+    "Character",
+    "assets/images/descendants/Valby.png",
+    [
+      "assets/images/descendants/parts/Valby Enhanced Cells Blueprint.png",
+      "Valby Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Valby Stabilizer Blueprint.png",
+      "Valby Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Valby Spiral Catalyst Blueprint.png",
+      "Valby Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Valby Code.png", "Valby Code"]
+  ],
+  "Viessa": [
+    "Character",
+    "assets/images/descendants/Viessa.png",
+    [
+      "assets/images/descendants/parts/Viessa Enhanced Cells Blueprint.png",
+      "Viessa Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Viessa Stabilizer Blueprint.png",
+      "Viessa Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Viessa Spiral Catalyst Blueprint.png",
+      "Viessa Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Viessa Code.png", "Viessa Code"]
+  ],
+  "Wave of Light": [
+    "Equipment",
+    "assets/images/weapons/Wave of Light.png",
+    [
+      "assets/images/weapons/parts/Wave of Light Polymer Syncytium Blueprint.png",
+      "Wave of Light Polymer Syncytium Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Wave of Light Synthetic Fiber Blueprint.png",
+      "Wave of Light Synthetic Fiber Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Wave of Light Nano Tube Blueprint.png",
+      "Wave of Light Nano Tube Blueprint"
+    ],
+    [
+      "assets/images/weapons/parts/Wave of Light Blueprint.png",
+      "Wave of Light Blueprint"
+    ]
+  ],
+  "Yujin": [
+    "Character",
+    "assets/images/descendants/Yujin.png",
+    [
+      "assets/images/descendants/parts/Yujin Enhanced Cells Blueprint.png",
+      "Yujin Enhanced Cells Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Yujin Stabilizer Blueprint.png",
+      "Yujin Stabilizer Blueprint"
+    ],
+    [
+      "assets/images/descendants/parts/Yujin Spiral Catalyst Blueprint.png",
+      "Yujin Spiral Catalyst Blueprint"
+    ],
+    ["assets/images/descendants/parts/Yujin Code.png", "Yujin Code"]
+  ]
+}
