@@ -41,7 +41,7 @@ class AssetListItemState extends State<AssetListItem> {
 
     LayoutBuilder imageLayout = LayoutBuilder(
       builder: (BuildContext context, BoxConstraints constraints) {
-        double size = constraints.maxHeight * 0.75;
+        double size = constraints.maxHeight * 0.8;
         ClipOval imageWidget = widget.asset is Descendant? 
           ClipOval(child: Image.asset(widget.asset.getImagePath, width: size, height: size, fit: BoxFit.cover, alignment: Alignment(0, -0.7),),)
           :

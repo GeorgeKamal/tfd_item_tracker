@@ -77,24 +77,27 @@ class AssetDetailsState extends State<AssetDetails> {
 
     List<Widget> rows = List.generate(widget.asset.getParts.length, (int index) =>
       Container(
-        padding: EdgeInsets.symmetric(horizontal: 20), 
+        padding: EdgeInsets.symmetric(horizontal: 10), 
         child: Column(
           children: [
             if(index == 0)
               Divider(),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                InkWell(
-                  onTap: () {Utils.alert(context, "Move to Patterns page with ${widget.asset.getParts[index]}");},
-                  borderRadius: BorderRadius.all(Radius.circular(10)),
-                  child: Container(
-                    padding: EdgeInsets.all(10),
-                    child: SizedBox(width: screenWidth * (isPortrait? 0.55 : 0.45), child: Text(widget.asset.getParts[index]))
-                    )
-                ),
-                generateStateHolderWidget(index)
-              ],
+            Container(
+              padding: EdgeInsets.symmetric(horizontal: 10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  InkWell(
+                    onTap: () {Utils.alert(context, "Move to Patterns page with ${widget.asset.getParts[index]}");},
+                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    child: Container(
+                      padding: EdgeInsets.all(5),
+                      child: SizedBox(width: screenWidth * (isPortrait? 0.5 : 0.45), child: Text(widget.asset.getParts[index]))
+                      )
+                  ),
+                  generateStateHolderWidget(index)
+                ],
+              )
             ),
             // if(index < widget.asset.getParts.length - 1)
               Divider()
