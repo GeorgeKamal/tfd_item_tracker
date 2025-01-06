@@ -11,17 +11,22 @@ class AssetList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GridView.builder(
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: MediaQuery.of(context).orientation.index == 0? 1:2, 
-        childAspectRatio: 4,
-        ), 
-      itemCount: list.length,
-      itemBuilder: (context, index) {
-        return AssetListItem(asset: list[index]);
-      },
-      padding: EdgeInsets.all(10)
-    );
+    if(list.isEmpty) {
+      return Center(child: Padding(padding: EdgeInsets.all(40), child: Text("No Items Found!", style: TextStyle(fontSize: 20))));
+    }
+    else {
+      return GridView.builder(
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: MediaQuery.of(context).orientation.index == 0? 1:2, 
+          childAspectRatio: 4,
+          ), 
+        itemCount: list.length,
+        itemBuilder: (context, index) {
+          return AssetListItem(asset: list[index]);
+        },
+        padding: EdgeInsets.all(10)
+      );
+    }
   }
   
 }

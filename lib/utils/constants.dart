@@ -1,6 +1,9 @@
 class Constants {
-  static String title = "TFD Item Tracker";
-  static Set<String> tabNames = {"Descendants", "Weapons"};
-  static String typeDescendant = "DESCENDANT";
-  static String typeWeapon = "WEAPON";
+  static const String title = "TFD Item Tracker";
+  static const List<String> screens = ["Descendants", "Weapons", "Fellow", "Starred", "Amorphous Material Patterns", "Settings"];
+  
+  static const String typeDescendant = "Character";
+  static const String typeWeapon = "Equipment";
+  static const  String typeFellow = "Fellow";
+  
 }

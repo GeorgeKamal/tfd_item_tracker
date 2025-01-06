@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tfd_item_tracker/models/asset.interface.dart';
 import 'package:tfd_item_tracker/models/descendant.model.dart';
+import 'package:tfd_item_tracker/models/fellow.model.dart';
 import 'package:tfd_item_tracker/models/weapon.model.dart';
 import 'package:tfd_item_tracker/utils/utils.dart';
 
@@ -72,9 +73,7 @@ class AssetDetailsState extends State<AssetDetails> {
     setState(() {});
   }
 
-  List<Widget> generateRows(BuildContext context, bool isPortrait) {
-    double screenWidth = MediaQuery.of(context).size.width;
-
+  List<Widget> generateRows(BuildContext context) {
     List<Widget> rows = List.generate(widget.asset.getParts.length, (int index) =>
       Container(
         padding: EdgeInsets.symmetric(horizontal: 10), 
@@ -87,14 +86,19 @@ class AssetDetailsState extends State<AssetDetails> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  InkWell(
-                    onTap: () {Utils.alert(context, "Move to Patterns page with ${widget.asset.getParts[index]}");},
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
-                    child: Container(
-                      padding: EdgeInsets.all(5),
-                      child: SizedBox(width: screenWidth * (isPortrait? 0.5 : 0.45), child: Text(widget.asset.getParts[index]))
+                  ClipOval(child: Image.asset(widget.asset.getParts[index][0], width: 50, height: 50, fit: BoxFit.cover)),
+                  SizedBox(width: 10),
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {Utils.snack(context, "Move to Patterns page with ${widget.asset.getParts[index][1]}");},
+                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                      child: Container(
+                        padding: EdgeInsets.all(10),
+                        child: Text(widget.asset.getParts[index][1])
                       )
+                    )
                   ),
+                  SizedBox(width: 10),
                   generateStateHolderWidget(index)
                 ],
               )
@@ -125,7 +129,7 @@ class AssetDetailsState extends State<AssetDetails> {
               count![index]--;
             });
             save();
-            Utils.alert(context, "Saved!");
+            Utils.snack(context, "Saved!");
           }
         }, icon: Icon(Icons.remove)),
         Text(count![index].toString()), 
@@ -135,13 +139,13 @@ class AssetDetailsState extends State<AssetDetails> {
               count![index]++;
             });
             save();
-            Utils.alert(context, "Saved!");
+            Utils.snack(context, "Saved!");
           }
         }, icon: Icon(Icons.add)),
       ],
     );
 
-    if(widget.asset is Descendant) {
+    if(widget.asset is Descendant || widget.asset is Fellow) {
       stateHolder = Row(
         children: [
           Switch(
@@ -152,7 +156,7 @@ class AssetDetailsState extends State<AssetDetails> {
                 owned![index] = value;
               });
               save();
-              Utils.alert(context, "Saved!");
+              Utils.snack(context, "Saved!");
             }
           ),
         ],
@@ -165,8 +169,6 @@ class AssetDetailsState extends State<AssetDetails> {
   @override
   Widget build(BuildContext context) {
     bool isPortrait = MediaQuery.of(context).orientation.index == 0;
-    double screenWidth = MediaQuery.of(context).size.width;
-    double screenHeight = MediaQuery.of(context).size.height;
 
     Widget bodyWidget = (owned == null || count == null)? LinearProgressIndicator() : isPortrait?
       Container(
@@ -175,10 +177,15 @@ class AssetDetailsState extends State<AssetDetails> {
           children: [
             Hero(
               tag: widget.asset.getName,
-              child: Center(child: Image.asset(widget.asset.getImagePath, height: screenHeight * (widget.asset is Descendant? 0.35 : 0.3)))
+              child: Center(
+                child: Container(
+                  padding: EdgeInsets.all(5),
+                  child: Image.asset(widget.asset.getImagePath)
+                ),
+              )
             ),
-            SizedBox(height: 15),
-            Column(children: generateRows(context, isPortrait))
+            SizedBox(height: 20),
+            Column(children: generateRows(context))
           ],
         )
       )
@@ -186,18 +193,23 @@ class AssetDetailsState extends State<AssetDetails> {
     Container(
       padding: EdgeInsets.all(10),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Expanded(
-            flex: 1, 
+            flex: 2, 
             child: Hero(
-            tag: widget.asset.getName,
-            child: Center(child: Image.asset(widget.asset.getImagePath, width: screenWidth * 0.3, height: screenHeight * 0.65,))
+              tag: widget.asset.getName,
+              child: Center(
+                child: Container(
+                  padding: EdgeInsets.all(15),
+                  child: Image.asset(widget.asset.getImagePath)
+                ),
+              )
             )
           ),
+          // SizedBox(width: 10),
           Expanded(
-            flex: 3, 
-            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: generateRows(context, isPortrait))
+            flex: 5, 
+            child: Column(mainAxisAlignment: MainAxisAlignment.center, children: generateRows(context))
           )
         ],
       )
@@ -207,7 +219,7 @@ class AssetDetailsState extends State<AssetDetails> {
       appBar: AppBar(
         title: Text(widget.asset.getName),
       ),
-      body: SafeArea(child: SingleChildScrollView(child: bodyWidget,))
+      body: SafeArea(child: Center(child: SingleChildScrollView(child: bodyWidget,),))
     );
   }
   

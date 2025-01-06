@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:tfd_item_tracker/components/asset_list.dart';
 import 'package:tfd_item_tracker/models/descendant.model.dart';
 import 'package:tfd_item_tracker/models/weapon.model.dart';
+import 'package:tfd_item_tracker/providers/stars_model.dart';
 import 'package:tfd_item_tracker/utils/constants.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -14,17 +16,20 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: Constants.tabNames.length, 
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text(Constants.title),
-          bottom: TabBar(
-            tabs: Constants.tabNames.map((x) => Tab(text: x)).toList()
+        length: Constants.screens.length, 
+        child: Scaffold(
+          appBar: AppBar(
+            title: Text(Constants.title),
+            bottom: TabBar(
+              tabs: Constants.screens.map((x) => Tab(text: x)).toList()
+            ),
+            // actions: [
+            //   IconButton(icon: Icon(Icons.star_rounded), onPressed: () async {
+            //     await Navigator.push(context, MaterialPageRoute(builder: (context) => StarredScreen(list: [...descendants, ...weapons],)));
+            //   }),
+            // ],
           ),
-        ),
-        body: TabBarView(
-          children: [AssetList(list: descendants), AssetList(list: weapons)]
-        ),
+          body: SafeArea(child: ChangeNotifierProvider(create: (context) => StarsModel(), child: TabBarView(children: [AssetList(list: descendants), AssetList(list: weapons)]))),
       )
     );
   }

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:tfd_item_tracker/components/asset_details.dart';
 import 'package:tfd_item_tracker/models/asset.interface.dart';
-import 'package:tfd_item_tracker/models/descendant.model.dart';
+import 'package:tfd_item_tracker/providers/stars_model.dart';
 import 'package:tfd_item_tracker/utils/utils.dart';
 
 class AssetListItem extends StatefulWidget {
@@ -39,23 +40,20 @@ class AssetListItemState extends State<AssetListItem> {
   Widget build(BuildContext context) {
     getProgress();
 
-    LayoutBuilder imageLayout = LayoutBuilder(
-      builder: (BuildContext context, BoxConstraints constraints) {
-        double size = constraints.maxHeight * 0.8;
-        ClipOval imageWidget = widget.asset is Descendant? 
-          ClipOval(child: Image.asset(widget.asset.getImagePath, width: size, height: size, fit: BoxFit.cover, alignment: Alignment(0, -0.7),),)
-          :
-          ClipOval(child: Image.asset(widget.asset.getImagePath,width: size, height: size,),);
-
-        return imageWidget;
-      },
-    );
-
-    
     if(progress == null) {
       //TODO - placeholder?
       return Center(child: CircularProgressIndicator());
     }
+
+    StarsModel model = Provider.of<StarsModel>(context, listen: false);
+    bool starred = model.isStarred(widget.asset.getName);
+
+    LayoutBuilder imageLayout = LayoutBuilder(
+      builder: (BuildContext context, BoxConstraints constraints) {
+        double size = constraints.maxHeight * 0.8;
+        return ClipOval(child: Image.asset(widget.asset.getImagePath, width: size, height: size));
+      },
+    );
 
     return Card(
       elevation: 2,
@@ -87,13 +85,22 @@ class AssetListItemState extends State<AssetListItem> {
               ),
             ),
             IconButton(
-              onPressed: () {
-                // onStar!();
-                //TODO - Add Starred Feature
-                Utils.alert(context, "Add Starred Feature");
+              onPressed: () async {
+                if(starred) {
+                  bool result = await Utils.alert(context, "Confirm Remove", "Remove ${widget.asset.getName} from stars?");
+                  if(result) {
+                    model.toggle(widget.asset.getName);
+                    if(context.mounted){
+                      Utils.snack(context, "Saved!");
+                    }
+                 }
+                }
+                else {
+                  model.toggle(widget.asset.getName);
+                  Utils.snack(context, "Saved!");
+                }
               },
-              // icon: Icon(starred.contains(title)? Icons.star_rounded: Icons.star_border_rounded)
-              icon: Icon(Icons.star_rounded)
+              icon: Icon(starred? Icons.star_rounded: Icons.star_border_rounded)
             ),
           ],
         ),

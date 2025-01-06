@@ -42,7 +42,12 @@ class Utils {
     return prefs.getBool(key) ?? false;
   }
 
-  static void alert(BuildContext context, String message) {
+  static void clearStorage() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.clear();
+  }
+
+  static void snack(BuildContext context, String message) {
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
       content: Center(child: Text(message),),
       duration: Duration(milliseconds: 1000),
@@ -50,4 +55,25 @@ class Utils {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0),),
     ));
   }
+
+  static Future alert(BuildContext context, String title, String content) {
+    return showDialog(
+      context: context,
+      builder: (BuildContext context) => AlertDialog(
+        title: Text(title),
+        content: Text(content),
+        actions: <Widget>[
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: Text('No', style: TextStyle(color: Colors.red),),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: Text('Yes', style: TextStyle(color: Colors.blue),),
+          ),
+        ],
+      )
+    );
+  }
+
 }
